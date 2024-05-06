@@ -18,6 +18,10 @@ if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").textContent = "Draw!";
 }
 
+$("button").on("click", function(){
+    window.location.reload();
+});
+
 /*
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
 var randomDiceImage = "dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
