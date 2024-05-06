@@ -18,7 +18,7 @@ if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").textContent = "Draw!";
 }
 
-$("button").on("click", function(){
+$(".btn").on("click", function(){
     window.location.reload();
 });
 
